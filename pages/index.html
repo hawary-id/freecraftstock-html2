@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
 
     <title>Freecraftstock</title>
     <!-- CSS Data AOS -->
@@ -16,60 +14,39 @@
     <!-- Style -->
     <link href="/dist/output.css" rel="stylesheet" />
     <!-- <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
 
-  <body class="dark:bg-gray-900">
+<body class="dark:bg-gray-900">
     <!-- Navbar -->
     <nav class="bg-white px-2 sm:px-4 dark:bg-gray-900 shadow">
-      <div
-        class="container flex flex-wrap justify-between items-center mx-auto"
-      >
-        <a href="" class="flex items-center">
-          <img src="/images/favicon.png" alt="" class="mr-3 h-7" />
-          <span
-            class="self-center text-xl mb-1 font-semibold whitespace-nowrap text-green-500 dark:text-white dark:hover:text-green-500"
-            >freecraftstock</span
-          >
-        </a>
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-slate-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-default"
-          aria-expanded="false"
-        >
-          <svg
-            class="w-6 h-6"
-            aria-hidden="true"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul
-            class="flex flex-col p-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 bg-white dark:bg-transparent dark:border-gray-700"
-          >
-            <li>
-              <a
-                href=""
-                class="block text-green-500 bg-transparent dark:text-green-500"
-                aria-current="page"
-                >Home</a
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="" class="flex items-center">
+                <img src="/images/favicon.png" alt="" class="mr-3 h-7" />
+                <span class="self-center text-xl mb-1 font-semibold whitespace-nowrap text-green-500 dark:text-white dark:hover:text-green-500">freecraftstock</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-slate-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+            <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+                ></path>
+            </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col p-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 bg-white dark:bg-transparent dark:border-gray-700">
+                    <li>
+                        <a href="" class="block text-green-500 bg-transparent dark:text-green-500" aria-current="page">Home</a
               >
             </li>
             <li>
@@ -121,32 +98,24 @@
                 class="border py-2 bg-green-400 text-white hover:text-white hover:bg-green-500 rounded-full px-4 dark:text-gray-800 dark:bg-gray-200 dark:border-gray-500"
               >
                 <span>Sign Up</span>
-              </a>
-            </li>
-          </ul>
+            </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
     <!-- Banner -->
-    <div
-      class="flex flex-col justify-center h-96 md:h-96 bg-gray-200 text-center px-6 dark:bg-gray-700"
-    >
-      <div
-        class="text-2xl md:text-4xl font-semibold text-gray-700 dark:text-gray-100"
-      >
-        Discover over 1 million free vector, photos, icon, PNG and others
-      </div>
-      <div class="text-lg text-gray-600 mb-4 mt-2 dark:text-gray-100">
-        Unlimited inspiration for extraordinary works
-      </div>
-      <form action="" class="">
-        <div class="flex flex-row justify-center">
-          <select
-            name="category"
-            id="category"
-            class="bg-gray-50 border-2 py-2 border-gray-300 text-gray-900 rounded-l-full focus:border-green-500 dark:bg-gray-50 dark:border-gray-600 dark:text-gray-800 dark:focus:ring-green-500"
-          >
+    <div class="flex flex-col justify-center h-96 md:h-96 bg-gray-200 text-center px-6 dark:bg-gray-700">
+        <div class="text-2xl md:text-4xl font-semibold text-gray-700 dark:text-gray-100">
+            Discover over 1 million free vector, photos, icon, PNG and others
+        </div>
+        <div class="text-lg text-gray-600 mb-4 mt-2 dark:text-gray-100">
+            Unlimited inspiration for extraordinary works
+        </div>
+        <form action="" class="">
+            <div class="flex flex-row justify-center">
+                <select name="category" id="category" class="bg-gray-50 border-2 py-2 border-gray-300 text-gray-900 rounded-l-full focus:border-green-500 dark:bg-gray-50 dark:border-gray-600 dark:text-gray-800 dark:focus:ring-green-500">
             <option value="">All</option>
             <option value="">Vectors</option>
             <option value="">Photos</option>
@@ -154,15 +123,9 @@
             <option value="">PSD</option>
             <option value="">Tutorials</option>
           </select>
-          <input
-            type="text"
-            class="bg-gray-50 md:w-96 w-full border-2 px-4 border-gray-300 text-gray-900 focus:outline-green-400 dark:bg-gray-50 dark:border-gray-600 dark:placeholder-gray-500 dark:text-gray-800 dark:focus:ring-green-500 active:ring-green-500"
-            placeholder="Find everything you want"
-          />
-          <button
-            type="submit"
-            class="bg-green-400 justify-center border-2 border-gray-300 px-3 rounded-r-full text-white focus:bg-green-500 hover:bg-green-600 hover:text-white hover:border-green-600 dark:bg-gray-50 dark:text-gray-800 dark:border-gray-600"
-          >
+                <input type="text" class="bg-gray-50 md:w-96 w-full border-2 px-4 border-gray-300 text-gray-900 focus:outline-green-400 dark:bg-gray-50 dark:border-gray-600 dark:placeholder-gray-500 dark:text-gray-800 dark:focus:ring-green-500 active:ring-green-500"
+                    placeholder="Find everything you want" />
+                <button type="submit" class="bg-green-400 justify-center border-2 border-gray-300 px-3 rounded-r-full text-white focus:bg-green-500 hover:bg-green-600 hover:text-white hover:border-green-600 dark:bg-gray-50 dark:text-gray-800 dark:border-gray-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -175,175 +138,360 @@
               />
             </svg>
           </button>
+            </div>
+        </form>
+        <div class="flex py-5 md:justify-center justify-start gap-2 overflow-x-auto">
+            <a href="#" class="bg-gray-50 px-3 py-1 hover:bg-green-500 hover:text-white flex flex-row items-center gap-2 rounded-full dark:bg-gray-50 dark:hover:bg-green-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg> Vector
+            </a>
+            <a href="#" class="bg-gray-50 px-3 py-1 hover:bg-green-500 hover:text-white flex flex-row items-center gap-2 rounded-full dark:bg-gray-50 dark:hover:bg-green-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg> Border
+            </a>
+            <a href="#" class="bg-gray-50 px-3 py-1 hover:bg-green-500 hover:text-white flex flex-row items-center gap-2 rounded-full dark:bg-gray-50 dark:hover:bg-green-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg> Batik
+            </a>
+            <a href="#" class="bg-gray-50 px-3 py-1 hover:bg-green-500 hover:text-white flex flex-row items-center gap-2 rounded-full dark:bg-gray-50 dark:hover:bg-green-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg> SVG
+            </a>
         </div>
-      </form>
-      <div class="flex py-5 justify-center justify-start gap-2 overflow-x-auto">
-        <a
-          href="#"
-          class="bg-gray-50 px-3 py-1 hover:bg-green-500 hover:text-white flex flex-row items-center gap-2 rounded-full dark:bg-gray-50 dark:hover:bg-green-500"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-            />
-          </svg>
-          Vector
-        </a>
-        <a
-          href="#"
-          class="bg-gray-50 px-3 py-1 hover:bg-green-500 hover:text-white flex flex-row items-center gap-2 rounded-full dark:bg-gray-50 dark:hover:bg-green-500"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-            />
-          </svg>
-          Border
-        </a>
-        <a
-          href="#"
-          class="bg-gray-50 px-3 py-1 hover:bg-green-500 hover:text-white flex flex-row items-center gap-2 rounded-full dark:bg-gray-50 dark:hover:bg-green-500"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-            />
-          </svg>
-          Batik
-        </a>
-        <a
-          href="#"
-          class="bg-gray-50 px-3 py-1 hover:bg-green-500 hover:text-white flex flex-row items-center gap-2 rounded-full dark:bg-gray-50 dark:hover:bg-green-500"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-            />
-          </svg>
-          SVG
-        </a>
-      </div>
     </div>
     <!-- Category -->
     <div class="container flex flex-col mx-auto mt-6">
-      <div class="text-2xl text-gray-900 mx-6 dark:text-white">
-        Find Your Inspiration Here
-      </div>
-      <div class="flex justify-start p-6 gap-6 overflow-x-auto">
-        <a href="" class="flex flex-col justify-center items-center h-32 w-32">
-          <div class="bg-gray-200 rounded-full p-5 h-20 w-20 hover:bg-gray-300">
-            <img
-              src="/images/icon/icon-ilustration.svg"
-              alt=""
-              class="h-10 mx-auto"
-            />
-          </div>
-          <div class="font-semibold text-lg mt-2 text-green-500 mx-auto">
-            ILUSTRATION
-          </div>
-        </a>
-        <a href="" class="flex flex-col justify-center items-center h-32 w-32">
-          <div
-            class="bg-gray-200 rounded-full p-5 h-20 w-20 hover:bg-gray-100 hover:ring-green-300"
-          >
-            <img
-              src="/images/icon/icon-vector.svg"
-              alt=""
-              class="h-10 mx-auto"
-            />
-          </div>
-          <div class="font-semibold text-lg mt-2 text-green-500 mx-auto">
-            VECTOR
-          </div>
-        </a>
-        <a href="" class="flex flex-col justify-center items-center h-32 w-32">
-          <div
-            class="bg-gray-200 rounded-full p-5 h-20 w-20 hover:bg-gray-100 hover:ring-green-300"
-          >
-            <img
-              src="/images/icon/icon-photo.svg"
-              alt=""
-              class="h-10 mx-auto"
-            />
-          </div>
-          <div class="font-semibold text-lg mt-2 text-green-500 mx-auto">
-            PHOTO
-          </div>
-        </a>
-        <a href="" class="flex flex-col justify-center items-center h-32 w-32">
-          <div
-            class="bg-gray-200 rounded-full p-5 h-20 w-20 hover:bg-gray-100 hover:ring-green-300"
-          >
-            <img
-              src="/images/icon/icon-all-category.svg"
-              alt=""
-              class="h-10 mx-auto"
-            />
-          </div>
-          <div class="font-semibold text-lg mt-2 text-green-500 mx-auto">
-            ALL
-          </div>
-        </a>
-      </div>
+        <div class="text-2xl text-gray-900 mx-6 dark:text-white">
+            Find Your Inspiration Here
+        </div>
+        <div class="flex justify-start p-6 gap-6 overflow-x-auto">
+            <a href="" class="flex flex-col justify-center items-center h-32 w-32">
+                <div class="bg-gray-200 rounded-full p-5 h-20 w-20 hover:bg-gray-300">
+                    <img src="/images/icon/icon-ilustration.svg" alt="" class="h-10 mx-auto" />
+                </div>
+                <div class="font-semibold text-lg mt-2 text-green-500 mx-auto">
+                    ILUSTRATION
+                </div>
+            </a>
+            <a href="" class="flex flex-col justify-center items-center h-32 w-32">
+                <div class="bg-gray-200 rounded-full p-5 h-20 w-20 hover:bg-gray-100 hover:ring-green-300">
+                    <img src="/images/icon/icon-vector.svg" alt="" class="h-10 mx-auto" />
+                </div>
+                <div class="font-semibold text-lg mt-2 text-green-500 mx-auto">
+                    VECTOR
+                </div>
+            </a>
+            <a href="" class="flex flex-col justify-center items-center h-32 w-32">
+                <div class="bg-gray-200 rounded-full p-5 h-20 w-20 hover:bg-gray-100 hover:ring-green-300">
+                    <img src="/images/icon/icon-photo.svg" alt="" class="h-10 mx-auto" />
+                </div>
+                <div class="font-semibold text-lg mt-2 text-green-500 mx-auto">
+                    PHOTO
+                </div>
+            </a>
+            <a href="" class="flex flex-col justify-center items-center h-32 w-32">
+                <div class="bg-gray-200 rounded-full p-5 h-20 w-20 hover:bg-gray-100 hover:ring-green-300">
+                    <img src="/images/icon/icon-all-category.svg" alt="" class="h-10 mx-auto" />
+                </div>
+                <div class="font-semibold text-lg mt-2 text-green-500 mx-auto">
+                    ALL
+                </div>
+            </a>
+        </div>
     </div>
 
     <!-- Popular -->
     <div class="container flex flex-col mx-auto my-6">
-      <div class="text-2xl text-gray-900 mx-6 dark:text-white">Popular</div>
-      <div class="grid grid-cols-3 gap-3 mx-6 mt-4">
-        <a
-          href=""
-          class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group"
-        >
-          <div
-            class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible ease-in-out duration-300"
-          >
-            Vectors
-          </div>
-          <div
-            class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible ease-in-out duration-300"
-          >
-            Like
-          </div>
-          <div
-            class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible ease-in-out duration-300"
-          >
-            Background Image
-          </div>
-        </a>
-      </div>
+        <div class="flex flex-row place-content-between">
+            <div class="text-2xl text-gray-900 mx-6 dark:text-white">Popular</div>
+            <a href="" class="text-2xl text-green-500 mx-6 hover:text-green-600 dark:text-white">Show All</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mx-6 mt-4">
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
+
+    <!-- Recent -->
+    <div class="container flex flex-col mx-auto mt-12">
+        <div class="flex flex-row place-content-between">
+            <div class="text-2xl text-gray-900 mx-6 dark:text-white">Recent</div>
+            <a href="" class="text-2xl text-green-500 mx-6 hover:text-green-600 dark:text-white">Show All</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mx-6 mt-4">
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="relative h-56 rounded-lg bg-[url('/images/banner.webp')] bg-cover bg-center group">
+                <div class="absolute text-lg text-white left-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="px-2 rounded-lg bg-slate-300 text-gray-800">Free</div>
+                </div>
+                <div class="absolute text-lg text-white right-4 top-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    Vector
+                </div>
+                <div class="flex flex-row items-center absolute text-lg text-white right-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <i class="bi bi-heart-fill"></i>
+                    <div class="ml-1">5</div>
+                </div>
+                <div class="absolute text-lg text-white left-4 bottom-4 invisible group-hover:visible transition delay-150 ease-in-out duration-300">
+                    <div class="flex flex-row">
+                        <div class="self-center rounded-full bg-[url('/images/favicon.png')] h-10 w-10 bg-center bg-cover"></div>
+                        <div class="flex flex-col ml-2">
+                            <div class="text-base font-semibold">Background Green</div>
+                            <div class="text-xs">Freecraftstock</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
 
     <footer></footer>
     <!-- Bootstrap core JavaScript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
-  </body>
+</body>
+
 </html>
